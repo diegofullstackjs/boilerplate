@@ -6,6 +6,10 @@
     "postinstall": "husky install"
   },
   "devDependencies": {
+    "@craco/craco": "^6.2.0",
+    "cross-env": "^7.0.3",
+    "fork-ts-checker-webpack-plugin": "^6.3.2",
+    "tsconfig-paths-webpack-plugin": "^3.5.1",
     "@commitlint/cli": "^13.2.0",
     "@commitlint/config-conventional": "^13.2.0",
     "husky": "^7.0.2",
