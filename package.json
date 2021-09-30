@@ -1,0 +1,17 @@
+{
+  "name": "monorepo",
+  "author": "kelvin diego da silva soares < kelvin.fabiana@gmail.com >",
+  "private": true,
+  "scripts": {
+    "postinstall": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^13.2.0",
+    "@commitlint/config-conventional": "^13.2.0",
+    "husky": "^7.0.2",
+    "lerna": "^4.0.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
