@@ -3,6 +3,8 @@
   "author": "kelvin diego da silva soares < kelvin.fabiana@gmail.com >",
   "private": true,
   "scripts": {
+    "web:dev": "lerna run front-react:start --scope @monorepo/front --stream",
+    "web:build" : "lerna run front-react:build --scope @monorepo/front --stream",
     "postinstall": "husky install",
     "release": "standard-version"
   },
